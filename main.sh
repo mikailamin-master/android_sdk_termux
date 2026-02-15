@@ -96,7 +96,7 @@ then
     fi
 
     echo "[I] | installing fixed platform 35 and build-tools 35.0.0"
-    sdkmanager "platforms;android-35" || exit 1
+    sdkmanager "platforms;android-34" || exit 1
     sdkmanager "build-tools;35.0.0" || exit 1
 
     # chmod +x bin files in platform-tools and build-tools
